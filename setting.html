@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to kokoa</title>
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>95%</span>
+        <i class="fas fa-battery-three-quarters fa-lg"></i>
+        <i class "fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <span>
+          <a href="javascript:history.back();">
+            <i class="fa-solid fa-chevron-left"></i>
+          </a>
+        </span>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Setting</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen setting-screen">
+        <div class="setting-list">
+
+            <div class="setting-list-icon">
+                <i class="fa-solid fa-bullhorn"></i>            
+                <span class="setting-list-text">Notices</span>
+                <span class="setting-list-condition"></span>
+            </div>
+            <div class="setting-list-icon">
+                <i class="fas fa-flask"></i>       
+                <span class="setting-list-text">Kokoa Lab</span>
+                <span class="setting-list-condition"></span>
+            </div>
+            <div class="setting-list-icon setting-list-icon-last">
+                <i class="fas fa-wrench"></i>     
+                <span class="setting-list-text">Version</span>
+                <span class="setting-list-condition">Latest Version</span>
+            </div>
+
+            <div class="setting-list-icon setting-list-icon-second">
+                <i class="fas fa-lock"></i>      
+                <span class="setting-list-text">Privacy</span>
+                <span class="setting-list-condition"></span>
+            </div>
+            <div class="setting-list-icon">
+                <i class="fas fa-bell"></i>      
+                <span class="setting-list-text">Notifications</span>
+                <span class="setting-list-condition"></span>
+            </div>
+            <div class="setting-list-icon">
+                <i class="fas fa-user"></i>      
+                <span class="setting-list-text">Friends</span>
+                <span class="setting-list-condition"></span>
+            </div>
+            <div class="setting-list-icon">
+                <i class="far fa-comment"></i>   
+                <span class="setting-list-text">Chats</span>
+                <span class="setting-list-condition"></span>
+            </div>
+            <div class="setting-list-icon">
+                <i class="fas fa-sun"></i>
+                <span class="setting-list-text">Display</span>
+                <div class="setting-list-text-new">N</div>
+                <span class="setting-list-condition"></span>
+            </div>
+            <div class="setting-list-icon">
+                <i class="fas fa-paint-roller"></i>       
+                <span class="setting-list-text">Themes</span>
+                <div class="setting-list-text-new">N</div>
+                <span class="setting-list-condition">Default Theme</span>
+            </div>
+            <div class="setting-list-icon">
+                <i class="fas fa-phone-alt"></i>    
+                <span class="setting-list-text">Call</span>
+                <span class="setting-list-condition"></span>
+            </div>
+            
+        </div>
+     </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"><i class="fas fa-user fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">            
+          <a class="nav__link" href="chats.html">            
+            <span class="nav__notice badge">1</span>
+            <i class="far fa-comment fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">            
+          <a class="nav__link" href="more.html">
+            <div class="nav__ellipsis-notice"></div><i class="fas fa-ellipsis-h fa-2x"></i></i></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <span>Screen is too big ㅇㅁㅇ;;</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/9a66f80eae.js" crossorigin="anonymous"></script>
+  </body>
+</html>
